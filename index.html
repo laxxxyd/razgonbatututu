@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAZGON — Батутный парк | Поймай свой разгон!</title>
+    <meta name="description" content="Батутный парк RAZGON — море движения, яркие эмоции и незабываемое воскресенье! Прыгай выше, смейся громче, отдыхай ярче!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,900&family=Rubik:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a href="#home" class="logo">
+                <span class="logo__text">RAZGON</span>
+                <span class="logo__spark">⚡</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Главная</a></li>
+                    <li><a href="#about" class="nav__link">О парке</a></li>
+                    <li><a href="#schedule" class="nav__link">Расписание</a></li>
+                    <li><a href="#gallery" class="nav__link">Галерея</a></li>
+                    <li><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <a href="#contact" class="btn btn--pulse">ХОЧУ ПРЫГАТЬ!</a>
+                <button class="burger" id="burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__decor hero__decor--1">⚡</div>
+            <div class="hero__decor hero__decor--2">★</div>
+            <div class="hero__decor hero__decor--3">🔥</div>
+            
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <div class="badge hero__badge">
+                        <span>⚡ КАЖДОЕ ВТОРОЕ ВОСКРЕСЕНЬЕ ЧЁТНЫХ МЕСЯЦЕВ</span>
+                    </div>
+                    <h1 class="hero__title">ПОЙМАЙ СВОЙ <span class="highlight">РАЗГОН!</span></h1>
+                    <p class="hero__description">Прыгай выше, смейся громче, отдыхай ярче! RAZGON — место, где обычное воскресенье превращается в настоящий праздник.</p>
+                    <div class="hero__buttons">
+                        <a href="#schedule" class="btn btn--primary">УЗНАТЬ РАСПИСАНИЕ</a>
+                        <a href="#contact" class="btn btn--secondary">ОСТАВИТЬ ЗАЯВКУ</a>
+                    </div>
+                </div>
+                <div class="hero__image-wrapper">
+                    <div class="hero__shape"></div>
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c6232660d02?q=80&w=1000&auto=format&fit=crop" alt="Человек энергично прыгает на батуте" class="hero__image" loading="lazy">
+                    <div class="floating-badge badge-bounce">
+                        <span>🚀 ВЗЛЕТАЙ!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__tag">ЭНЕРГИЯ И СВОБОДА</span>
+                    <h2 class="section__title">ЗДЕСЬ НАЧИНАЕТСЯ <span class="highlight-pink">ВЕСЕЛЬЕ!</span></h2>
+                    <p class="section__desc">RAZGON — пространство, где можно забыть о повседневной суете, зарядиться энергией и отлично провести время. Прыжки, смех, движение и море положительных эмоций ждут каждого гостя!</p>
+                </div>
+
+                <div class="about__grid">
+                    <div class="about__card about__card--orange">
+                        <div class="about__card-icon">🚀</div>
+                        <h3 class="about__card-title">Море движения и веселья</h3>
+                        <p class="about__card-desc">Активный отдых, который заряжает бодростью и держит в тонусе.</p>
+                    </div>
+
+                    <div class="about__card about__card--yellow">
+                        <div class="about__card-icon">✨</div>
+                        <h3 class="about__card-title">Яркие эмоции для гостей</h3>
+                        <p class="about__card-desc">Незабываемые моменты радости для детей и взрослых.</p>
+                    </div>
+
+                    <div class="about__card about__card--pink">
+                        <div class="about__card-icon">🎉</div>
+                        <h3 class="about__card-title">Незабываемое воскресенье</h3>
+                        <p class="about__card-desc">Специальный график, превращающий выходной в грандиозное событие.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="schedule section" id="schedule">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__tag">ГРАФИК РАБОТЫ</span>
+                    <h2 class="section__title">ЛОВИ СВОЁ <span class="highlight-blue">ВОСКРЕСЕНЬЕ!</span></h2>
+                    <div class="schedule__main-badge">
+                        <span>⭐ КАЖДОЕ ВТОРОЕ ВОСКРЕСЕНЬЕ ЧЁТНЫХ МЕСЯЦЕВ ⭐</span>
+                    </div>
+                    <p class="section__desc">Парк открывает свои двери по особому расписанию. Планируйте свой идеальный активный отдых заранее!</p>
+                </div>
+
+                <div class="schedule__grid">
+                    <div class="month-card">
+                        <span class="month-card__num">02</span>
+                        <h3 class="month-card__name">Февраль</h3>
+                        <p class="month-card__text">2-е воскресенье</p>
+                    </div>
+                    <div class="month-card">
+                        <span class="month-card__num">04</span>
+                        <h3 class="month-card__name">Апрель</h3>
+                        <p class="month-card__text">2-е воскресенье</p>
+                    </div>
+                    <div class="month-card">
+                        <span class="month-card__num">06</span>
+                        <h3 class="month-card__name">Июнь</h3>
+                        <p class="month-card__text">2-е воскресенье</p>
+                    </div>
+                    <div class="month-card">
+                        <span class="month-card__num">08</span>
+                        <h3 class="month-card__name">Август</h3>
+                        <p class="month-card__text">2-е воскресенье</p>
+                    </div>
+                    <div class="month-card">
+                        <span class="month-card__num">10</span>
+                        <h3 class="month-card__name">Октябрь</h3>
+                        <p class="month-card__text">2-е воскресенье</p>
+                    </div>
+                    <div class="month-card">
+                        <span class="month-card__num">12</span>
+                        <h3 class="month-card__name">Декабрь</h3>
+                        <p class="month-card__text">2-е воскресенье</p>
+                    </div>
+                </div>
+
+                <div class="schedule__action">
+                    <a href="#contact" class="btn btn--primary btn--large">УТОЧНИТЬ РАСПИСАНИЕ</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section class="features section" id="features">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__tag">НАШИ ПРЕИМУЩЕСТВА</span>
+                    <h2 class="section__title">ПОЧЕМУ У НАС <span class="highlight">ТАК КРУТО?</span></h2>
+                </div>
+
+                <div class="features__grid">
+                    <div class="feature-card feature-card--1">
+                        <div class="feature-card__emoji">🤩</div>
+                        <h3 class="feature-card__title">ЭМОЦИИ</h3>
+                        <p class="feature-card__desc">Новые впечатления и море улыбок для каждого посетителя.</p>
+                    </div>
+
+                    <div class="feature-card feature-card--2">
+                        <div class="feature-card__emoji">🤸‍♂️</div>
+                        <h3 class="feature-card__title">ДВИЖЕНИЕ</h3>
+                        <p class="feature-card__desc">Активный отдых вместо скучных выходных на диване.</p>
+                    </div>
+
+                    <div class="feature-card feature-card--3">
+                        <div class="feature-card__emoji">🎈</div>
+                        <h3 class="feature-card__title">ВЕСЕЛЬЕ</h3>
+                        <p class="feature-card__desc">Время, полностью наполненное радостью и драйвом.</p>
+                    </div>
+
+                    <div class="feature-card feature-card--4">
+                        <div class="feature-card__emoji">☀️</div>
+                        <h3 class="feature-card__title">ВОСКРЕСЕНЬЕ</h3>
+                        <p class="feature-card__desc">Отличный повод выбраться всей семьей или с друзьями.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__tag">АТМОСФЕРА</span>
+                    <h2 class="section__title">СМОТРИ, КАКОЙ <span class="highlight-pink">RAZGON!</span></h2>
+                    <p class="section__desc">Живые эмоции, энергия и радость наших гостей.</p>
+                </div>
+
+                <div class="gallery__grid">
+                    <div class="gallery__item gallery__item--1">
+                        <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop" alt="Прыжки на батуте" loading="lazy">
+                    </div>
+                    <div class="gallery__item gallery__item--2">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c6232660d02?q=80&w=800&auto=format&fit=crop" alt="Веселые прыжки в воздухе" loading="lazy">
+                    </div>
+                    <div class="gallery__item gallery__item--3">
+                        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=800&auto=format&fit=crop" alt="Эмоции посетителей парка" loading="lazy">
+                    </div>
+                    <div class="gallery__item gallery__item--4">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=800&auto=format&fit=crop" alt="Активный отдых и развлечения" loading="lazy">
+                    </div>
+                    <div class="gallery__item gallery__item--5">
+                        <img src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?q=80&w=800&auto=format&fit=crop" alt="Яркие моменты в RAZGON" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Feedback Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <div class="contact__info">
+                        <span class="section__tag">СВЯЖИСЬ С НАМИ</span>
+                        <h2 class="section__title">НАЙДИ СВОЙ <span class="highlight">RAZGON!</span></h2>
+                        <p class="contact__desc">Готовы к незабываемым прыжкам? Оставьте заявку или свяжитесь с нами любым удобным способом.</p>
+                        
+                        <ul class="contact__list">
+                            <li><strong>Название:</strong> RAZGON</li>
+                            <li><strong>Город:</strong> Указать после согласования</li>
+                            <li><strong>Адрес:</strong> Уточняется</li>
+                            <li><strong>Телефон:</strong> Уточняется</li>
+                        </ul>
+
+                        <div class="socials">
+                            <a href="#" class="socials__link" aria-label="Telegram">Telegram</a>
+                            <a href="#" class="socials__link" aria-label="VKontakte">VKontakte</a>
+                            <a href="#" class="socials__link" aria-label="Instagram">Instagram</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__form-container">
+                        <div class="form__header">
+                            <h3 class="form__title">ГОТОВ К РАЗГОНУ?</h3>
+                            <p class="form__subtitle">Оставь заявку, и мы свяжемся с тобой!</p>
+                        </div>
+
+                        <form class="form" id="feedbackForm" novalidate>
+                            <div class="form__group">
+                                <label for="name" class="form__label">Имя</label>
+                                <input type="text" id="name" name="name" class="form__input" placeholder="Как вас зовут?" required>
+                                <span class="form__error" id="nameError">Пожалуйста, введите ваше имя</span>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="phone" class="form__label">Номер телефона</label>
+                                <input type="tel" id="phone" name="phone" class="form__input" placeholder="+7 (___) ___-__-__" required>
+                                <span class="form__error" id="phoneError">Введите корректный номер телефона</span>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="guests" class="form__label">Количество гостей</label>
+                                <input type="number" id="guests" name="guests" class="form__input" placeholder="Например: 3" min="1" max="50" required>
+                                <span class="form__error" id="guestsError">Укажите количество гостей</span>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="comment" class="form__label">Комментарий (необязательно)</label>
+                                <textarea id="comment" name="comment" class="form__textarea" placeholder="Ваши пожелания или вопросы..." rows="3"></textarea>
+                            </div>
+
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy" class="form__checkbox-label">
+                                    Я согласен на <a href="#" id="privacyLink">обработку персональных данных</a>
+                                </label>
+                                <span class="form__error" id="privacyError">Необходимо согласие</span>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">ОСТАВИТЬ ЗАЯВКУ</button>
+                            
+                            <div class="form__success" id="formSuccess">
+                                🎉 Ура! Заявка успешно отправлена (демонстрационный режим). Мы скоро свяжемся с вами!
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div class="map-placeholder">
+                    <div class="map-placeholder__content">
+                        <span>🗺️ Место под интерактивную карту (адрес уточняется)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <a href="#home" class="logo">
+                    <span class="logo__text">RAZGON</span>
+                    <span class="logo__spark">⚡</span>
+                </a>
+                <p class="footer__tagline">ПРЫГАЙ ВЫШЕ. ЖИВИ ЯРЧЕ!</p>
+            </div>
+
+            <ul class="footer__nav">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О парке</a></li>
+                <li><a href="#schedule">Расписание</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+
+            <div class="footer__socials">
+                <a href="#" class="socials__link">Telegram</a>
+                <a href="#" class="socials__link">VKontakte</a>
+                <a href="#" class="socials__link">Instagram</a>
+            </div>
+
+            <div class="footer__copy">
+                <p>© 2026 RAZGON. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
